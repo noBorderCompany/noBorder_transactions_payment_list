@@ -1,3 +1,18 @@
+<?php
+
+/*
+* Plugin Name: Transactions List Sample code
+* Description: displays the list of the latest transactions on your website gateway by receiving the API
+* Version: 1.1
+* developer: Hanif Zekri Astaneh
+* Author: noBorder.tech
+* Author URI: https://noBorder.tech
+* Author Email: info@noBorder.tech
+* copyright (C) 2020 noBorder.tech
+* license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 or later
+*/
+
+?>
 <!doctype html>
 <html>
 <head>
