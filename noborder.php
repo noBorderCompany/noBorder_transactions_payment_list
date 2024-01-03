@@ -4,7 +4,6 @@
 * Plugin Name: Transactions List Sample code
 * Description: displays the list of the latest transactions on your website gateway by receiving the API
 * Version: 1.1
-* developer: Hanif Zekri Astaneh
 * Author: noBorder.tech
 * Author URI: https://noBorder.tech
 * Author Email: info@noBorder.tech
