@@ -4,10 +4,10 @@
 * Plugin Name: Transactions List Sample code
 * Description: displays the list of the latest transactions on your website gateway by receiving the API
 * Version: 1.1
-* Author: noBorder.tech
-* Author URI: https://noBorder.tech
-* Author Email: info@noBorder.tech
-* copyright (C) 2020 noBorder.tech
+* Author: noBorder.company
+* Author URI: https://noBorder.company
+* Author Email: info@noBorder.company
+* copyright (C) 2020 noBorder.company
 * license http://www.gnu.org/licenses/gpl-3.0.html GPLv3 or later
 */
 
@@ -16,7 +16,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title> noBorder.tech Transactions List </title>
+<title> noBorder.company Transactions List </title>
 </head>
 <body>
 
@@ -40,7 +40,7 @@ if ($_POST['action'] == 'process') {
 		'limit_count' => $_POST['limit_count'],
 	); 
 	
-	$url = 'https://noborder.tech/action/ws/request_list';
+	$url = 'https://noborder.company/action/ws/request_list';
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_POST, true);
 	curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
